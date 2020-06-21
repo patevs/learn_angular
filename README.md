@@ -7,6 +7,8 @@
 ## Links & Resources
 
 * [`angular-material`](https://material.angularjs.org/latest/getting-started)
+* [`eslint-plugin-angular`](https://github.com/EmmanuelDemey/eslint-plugin-angular)
+* [`eslint-config-angular`](https://github.com/dustinspecker/eslint-config-angular)
 
 ---
 
