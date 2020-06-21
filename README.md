@@ -4,6 +4,12 @@
 
 ---
 
+## Links & Resources
+
+* [`angular-material`](https://material.angularjs.org/latest/getting-started)
+
+---
+
 ## Project Structure
 
 ```md
