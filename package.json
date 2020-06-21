@@ -20,6 +20,7 @@
     "chalk": "^4.1.0",
     "commitizen": "^4.1.2",
     "commitlint-config-gitmoji": "^1.0.1",
+    "cpx": "^1.5.0",
     "cz-emoji": "^1.2.1",
     "husky": "^4.2.5",
     "np": "^6.2.4",
