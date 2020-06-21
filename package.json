@@ -9,6 +9,7 @@
     "url": "git+https://github.com/patevs/learn_angular.git"
   },
   "scripts": {
+    "copy-libs": "cpx \"node_modules/{angular,angular-*}/**/*\" app/lib -C",
     "start": "live-server ./app",
     "commit": "git-cz",
     "release": "np",
