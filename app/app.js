@@ -26,4 +26,15 @@ ngApp.controller('PhoneListController', function PhoneListController($scope) {
     ];
 });
 
+/*
+angular
+  .module('ngApp', [])
+  .controller('MainCtrl', function ($scope) {
+      // view-model
+      var vm = this;
+      vm.scope = $scope;
+      vm.scope.title = 'NG ESLINT';
+  });
+*/
+
 /* EOF */
