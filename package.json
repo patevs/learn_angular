@@ -1,12 +1,12 @@
 {
-  "name": "node-template",
-  "version": "1.0.1",
-  "description": "Repository Template for NodeJS Projects",
+  "name": "learn-angular",
+  "version": "0.0.0",
+  "description": "Resources and code snippets related to my learning of the `AngularJS` frontend JavaScript framework",
   "author": "PatEvs",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patevs/node-template.git"
+    "url": "git+https://github.com/patevs/learn_angular.git"
   },
   "scripts": {
     "commit": "git-cz",
