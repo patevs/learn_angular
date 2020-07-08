@@ -34,8 +34,7 @@
     "husky": "^4.2.5",
     "live-server": "^1.2.1",
     "np": "^6.2.5",
-    "script-progress": "^1.0.5",
-    "updates": "^10.2.15"
+    "script-progress": "^1.0.5"
   },
   "husky": {
     "hooks": {
