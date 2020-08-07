@@ -10,7 +10,7 @@
   },
   "scripts": {
     "postinstall": "npm run copy-libs",
-    "copy-libs": "cpx \"node_modules/{angular,angular-*}/**/*\" app/lib -C",
+    "copy-libs": "npx cpx \"node_modules/{angular,angular-*}/**/*\" app/lib -C",
     "start": "live-server ./app",
     "commit": "git-cz",
     "release": "np",
@@ -21,13 +21,9 @@
     "angular": "^1.8.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^9.1.1",
-    "@commitlint/core": "^9.1.1",
+    "@commitlint/cli": "^9.1.2",
     "chalk": "^4.1.0",
-    "commitizen": "^4.1.2",
     "commitlint-config-gitmoji": "^1.0.1",
-    "cpx": "^1.5.0",
-    "cz-emoji": "^1.2.1",
     "eslint": "^7.4.0",
     "eslint-config-angular": "^0.5.0",
     "eslint-plugin-angular": "^4.0.1",
@@ -35,26 +31,5 @@
     "live-server": "^1.2.1",
     "np": "^6.3.2",
     "script-progress": "^1.0.5"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "commitlint": {
-    "extends": [
-      "./node_modules/commitlint-config-gitmoji"
-    ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-emoji"
-    },
-    "cz-emoji": {
-      "skipQuestions": [
-        "body",
-        "issues"
-      ]
-    }
   }
 }
