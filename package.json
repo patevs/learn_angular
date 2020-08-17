@@ -31,5 +31,10 @@
     "live-server": "^1.2.1",
     "np": "^6.4.0",
     "script-progress": "^1.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
