@@ -12,7 +12,6 @@
     "postinstall": "npm run copy-libs",
     "copy-libs": "npx cpx \"node_modules/{angular,angular-*}/**/*\" app/lib -C",
     "start": "live-server ./app",
-    "commit": "git-cz",
     "release": "np",
     "test": "echo \"Error: no test specified\" && exit 0",
     "updates": "script-progress node ./bin/checkUpdates"
