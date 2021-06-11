@@ -34,10 +34,10 @@ AngularJS's data binding and dependency injection eliminate much of the code you
 ├── .eslintrc            # Eslint configuration
 ├── .gitignore           # Git ignore rules
 ├── .jshintrc            # Jshint configuration
-├── .np-config.json      # Npm publish (np) configuration
-├── LICENSE
-├── package.json         # Npm package configuration
-└── README.md
+├── .np-config.json      # NPM publish (np) configuration
+├── LICENSE              # Project LICENSE
+├── package.json         # NPM package configuration
+└── README.md            # Project README
 ```
 
 ---
