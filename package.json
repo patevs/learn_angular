@@ -9,6 +9,7 @@
     "url": "git+https://github.com/patevs/learn_angular.git"
   },
   "scripts": {
+    "prepare": "husky install",
     "postinstall": "npm run copy-libs",
     "copy-libs": "npx cpx \"node_modules/{angular,angular-*}/**/*\" app/lib -C",
     "start": "live-server ./app",
@@ -44,11 +45,6 @@
         0,
         "never"
       ]
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
