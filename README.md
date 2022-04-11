@@ -26,6 +26,7 @@ AngularJS's data binding and dependency injection eliminate much of the code you
 
 ```md
 .
+├── .husky               # Husky configuration
 ├── app
 │   └── app.js           # Angular app
 ├── bin
