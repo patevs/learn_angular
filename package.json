@@ -16,6 +16,7 @@
     "prepare": "husky install",
     "postinstall": "npm run copy-libs",
     "copy-libs": "npx cpx \"node_modules/{angular,angular-*}/**/*\" app/lib -C",
+    "prestart": "npx open-cli http://127.0.0.1:8080/",
     "start": "npx http-server ./app",
     "test": "echo \"Error: no test specified\" && exit 0",
     "updates": "script-progress node ./bin/checkUpdates",
