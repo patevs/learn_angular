@@ -33,7 +33,7 @@
     "eslint-config-angular": "^0.5.0",
     "eslint-plugin-angular": "^4.1.0",
     "husky": "^7.0.4",
-    "np": "^7.6.1",
+    "np": "^7.6.2",
     "script-progress": "^1.0.5"
   },
   "commitlint": {
