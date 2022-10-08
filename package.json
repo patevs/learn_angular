@@ -23,7 +23,7 @@
     "release": "np"
   },
   "dependencies": {
-    "angular": "^1.8.2"
+    "angular": "^1.8.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
