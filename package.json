@@ -26,7 +26,7 @@
     "angular": "^1.8.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.1.2",
+    "@commitlint/cli": "^17.6.7",
     "chalk": "^5.1.0",
     "commitlint-config-gitmoji": "^2.2.5",
     "eslint": "^8.25.0",
